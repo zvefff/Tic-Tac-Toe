@@ -1,0 +1,57 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+.outerFlexContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: .5;
+    background-color: red;
+    color: yellow;
+    align-items: center;
+    text-align: center;
+}
+
+.gameBoard {
+    height: 100%;
+    flex: 6;
+    background-color: yellow;
+}
+
+.horizontalLine1 {
+    position: absolute;
+    top: 33.3%;
+    width: 100%;
+    border: 10px solid black;
+}
+.horizontalLine2 {
+    position: absolute;
+    top: 66%;
+    width: 100%;
+    border: 10px solid black;
+}
+
+.verticalLine1 {
+    position: absolute;
+    left: 33.3%;
+    height: 81%;
+    border: 10px solid black;
+}
+
+.verticalLine2 {
+    position: absolute;
+    left: 66%;
+    height: 81%;
+    border: 10px solid black;
+}
+
+.description {
+    flex: .5;
+    background-color: green;
+}
